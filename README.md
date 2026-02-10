@@ -8,7 +8,7 @@ Focus: **analytics engineering, data modelling, and executive-ready dashboards**
 
 ---
 
-## What This Is
+## 🧠 What This Is
 
 A production-style analytics platform built from public **Olist Brazilian E-Commerce dataset**, following a **Medallion Architecture (Bronze --> Silver --> Gold)* and surfaced through a **clean Power BI semantic model**.
 
@@ -20,7 +20,7 @@ Designed to demonstrate:
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ![Medallion Architecture](architecture/medallion_overiew.png)
 
@@ -36,7 +36,7 @@ Designed to demonstrate:
 
 ---
 
-## Data Engineering Highlights
+## 🧪 Data Engineering Highlights
 
 - Referential integrity checks between facts & dimensions
 - Null and orphan detection (logged, not ignored)
@@ -45,7 +45,40 @@ Designed to demonstrate:
 
 ---
 
-## Power BI Dashboards
+## 📊 Power BI Dashboards
+
+![Executive Overview](powerbi/overview_dashboard.png)
+
+**Key analysis areas**
+- Revenue & orders
+- Seller performance
+- Payment behavior
+- Logistics & delivery performance
+- Customer satisfaction
+
+![Model Relationships](powerbi/model_relationships.png)
+
+---
+
+## 📐 Metrics & Measures
+
+- Time intelligence (YTD, MoM)
+- Weighted delivery duration
+- Revenue per order vs per item
+- Review score normalization
+
+---
+
+## 🛠️ Tech Stack
+
+Microsoft Fabric · PySpark · Delta Lake · Power BI · Star Schema · DAX
+
+---
+
+## 👤 Author
+
+**FC Ong**
+EOF
 
 ![Executive Overview](powerbi/overview_dashboard.png)
 
