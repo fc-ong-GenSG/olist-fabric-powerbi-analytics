@@ -56,7 +56,9 @@ Designed to demonstrate:
 - Logistics & delivery performance
 - Customer satisfaction
 
-![Model Relationships](powerbi/model_relationships.png)
+## ⭐ Gold Star Schema (Analytics Layer)
+
+![Gold Star Schema](architecture/gold_star_schema.png)
 
 ---
 
